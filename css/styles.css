@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.barra__navegacion{  
+  background-color: black;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+    height: 80px;
+}
+.menu__logo{
+    font-style: italic;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.menu__elemento{
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 5rem;
+    list-style: none;
+    text-decoration: none;
+}
+
+.banner{
+    background-image: url(/img/matrix-codigo.webp);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner__parrafo{
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: black;
+    color: white;
+    font-size: 100px;  
+}
+
+.banner__imagen{
+    margin-left: 35px;
+    border-radius: 50%;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    height: 120px;
+    background-color: black;
+}
+.redes_sociales{
+    min-height: 100%;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+}
+.redes_sociales__a{
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.sobre_mi{
+    height: 600px;
+}
+.sobre_mi__titulo{
+    padding-top: 5rem;
+    text-align: center;
+    font-size: 3rem;
+}
+.sobre_mi__parrafo{
+    text-align: justify;
+    padding: 1.5rem;
+    line-height: 3rem;
+    padding-top: 2rem;
+    font-size: 1.5rem;
+}
+
