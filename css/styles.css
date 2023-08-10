@@ -30,7 +30,7 @@
 }
 
 .banner{
-    background-image: url(/img/matrix-codigo.webp);
+    background-image: url(../img/matrix-codigo.webp);
     display: flex;
     justify-content: center;
     align-items: center;
